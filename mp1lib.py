@@ -9,13 +9,10 @@ def bsc(bits, p, rng):
     flips = rng.random(bits.shape) < p
     return np.bitwise_xor(bits, flips.astype(int))
 
-
 def packet_errors(n_pkt, n_bits, p, rng):
-    
-    #Simulate packets and return the number of corrupted bits
-   # in each packet.
-    
+    """Return the number of errors in each packet."""
     return rng.binomial(n=n_bits, p=p, size=n_pkt)
+
 
 
 def attempts_until_clean(n_trials, q, rng):
