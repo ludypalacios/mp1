@@ -2,8 +2,8 @@ import numpy as np
 
 
 def bsc(bits, p, rng):
-    #Pass bits through a binary symmetric channel.
-    #Each bit is independently flipped with probability p.
+    """Pass bits through a binary symmetric channel.
+    Each bit is independently flipped with probability p."""
     
     bits = np.asarray(bits, dtype=int)
     flips = rng.random(bits.shape) < p
