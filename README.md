@@ -7,7 +7,7 @@
 - Christopher S. Jones
 
 ## Contributions
-- Richmond Ian Ramirez: Completed step 1 (so far).
+- Richmond Ian Ramirez: Completed step 1, 7, and 8.
 - Ludy A. Palacios: Revised step1, Completed steps 2, 3, and 4.
 - Andrew Santillana: Completed steps 5 and 6.
 
