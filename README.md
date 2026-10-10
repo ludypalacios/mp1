@@ -13,4 +13,4 @@
 - Christopher Jones: Completed bonus A and bonus B
 
 ## Total Notebook Runtime
-To be measured after a complete notebook run.
+20 seconds
